@@ -13,6 +13,16 @@ This repository stores the code corresponding to the final project corresponding
 The project is divided into 3 main parts: web scraping, data generation and data analysis. The following shows how each of them should be carried out individually.
 
 ### Web scraping
+This part performs the harvesting of historical data from investing.com for the following assets : Amundi Index Msci World Ae-c, iShares Global Corporate Bond UCITS (CRPS),  Xtrackers II Global Government Bond UCITS ETF 5C (XG7S), SPDR® Gold Shares (GLD) and US Dollar Index (DXY). The data harvested is stored in individual csv files.
+
+In order to execute the code related to this section, it is necesary to have downloaded the corresponding ChromeDriver which can be done at https://chromedriver.chromium.org/downloads and save it in the following path: C:\webdrivers\chromedriver.exe
+ 
+Finally, the *Python* libraries needed are: 
+
+- selenium
+- time
+- pandas
+- lxml
 
 ### Data generation
 This part generates the files corresponding to the allocation of the different portfolios and the generation of different indices (return & volatility) for each one of them. 
