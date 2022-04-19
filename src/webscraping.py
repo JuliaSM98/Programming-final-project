@@ -1,3 +1,30 @@
+"""! @brief Data Harvesting (Part I) \n
+    This module performs the web scraping of the historical data that will be used.
+"""
+
+##
+# @file webscraping.py
+#
+# @brief Python program corresponding to the first part of the final project.
+#
+# @section description_scraping Description
+# This programme carries out the historical data harvesting of different assets, in
+# relation to the first part of the final project of the 'Programming for Data Science' course. 
+#
+# @section libraries_main Libraries/Modules
+# - selenium library (https://pypi.org/project/selenium/)
+#   - Web browser interaction from Python
+# - pandas library (https://pypi.org/project/pandas/)
+#   - Access to Dataframes, Series, etc.
+# - time library (built-in package)
+#   - Time access functions
+# - lxml library (https://pypi.org/project/lxml/)
+#   - Management of XML and HTML
+#
+# @section author_strategy Author(s)
+# - Created by group number 5 on March of 2022.
+#
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
