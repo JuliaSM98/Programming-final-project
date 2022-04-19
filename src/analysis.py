@@ -59,6 +59,7 @@ def main() -> None:
     """! Main program entry."""
     dfs = init()
     showQuadrant(dfs.get("METS"))
+    distributionReturns(dfs.get("METS"))
 
 def showQuadrant(df:pd.DataFrame) -> None:
     # -- Standarize & Normalize: Return and Volatility --
@@ -104,7 +105,22 @@ def showQuadrant(df:pd.DataFrame) -> None:
             
     plt.show()
 
+def distributionReturns(df:pd.DataFrame) -> None:
+    # -- Distribution of the returns for the generated data between 01/2020 and 31/12/2020 --
+    # -- Print Plot --
+    plt.figure(figsize=(12, 8))
 
+    #Hisogram + distribution plot
+    sns.histplot(df, x="RETURN", kde=True)
+
+    #Title
+    plt.title(f" Return distribution")
+
+    # x and y axis labels
+    plt.xlabel("Return")
+    plt.ylabel("Count + Density")
+
+    plt.show()
 
 
 if __name__ == "__main__":
