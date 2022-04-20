@@ -25,8 +25,8 @@
 # - Created by group number 5 on March of 2022.
 #
 
+# Imports
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -35,7 +35,7 @@ import pandas as pd
 import lxml
 
 chrome_options = webdriver.ChromeOptions()
-#Disable chrome extensions
+# Disable chrome extensions
 chrome_options.add_argument('--disable-extensions')
 
 assets = ['funds/amundi-msci-wrld-ae-c', 'etfs/ishares-global-corporate-bond-$',
@@ -45,15 +45,15 @@ assets = ['funds/amundi-msci-wrld-ae-c', 'etfs/ishares-global-corporate-bond-$',
 for asset in assets:
   while True:
     try:
-      #Define url to scrap
+      # Define url to scrap
       my_url = 'https://investing.com/'+asset+'-historical-data'
 
       driver = webdriver.Chrome(executable_path="C:\webdrivers\chromedriver.exe",
                                 options=chrome_options)
       driver.get(my_url)
-      #Maximize chrome window
+      # Maximize chrome window
       driver.maximize_window()
-      #Accept cookies
+      # Accept cookies
       WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable((By.XPATH,
                                     "//div[@class='banner-actions-container']//button[@id='onetrust-accept-btn-handler' and text()='I Accept']"))).click()
@@ -88,7 +88,7 @@ for asset in assets:
       # Getting the tables on the page
       dataframes = pd.read_html(driver.page_source)
 
-      #Get data table
+      # Get data table
       df = dataframes[0]
       if asset == assets[0]:
         print("Writing amundi-msci-wrld-ae-c historical data to csv.")

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['end_5fdate_0',['END_DATE',['../namespacestrategy.html#a23afe3491faf1a32ece09a251d110524',1,'strategy']]]
+  ['chrome_5foptions_0',['chrome_options',['../namespacewebscraping.html#a3282a3277ad6d1c30e453fe03ca725b8',1,'webscraping']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['start_5fdate_0',['START_DATE',['../namespacestrategy.html#a963d7a60fefcf7588eba4244c909e112',1,'strategy']]]
+  ['index_0',['index',['../namespacewebscraping.html#a6784e1c334dfceb8f017667c0b0f6a3e',1,'webscraping']]]
 ];
