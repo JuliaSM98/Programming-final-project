@@ -8,13 +8,13 @@
 #
 # @brief Python program corresponding to the third part of the final project.
 #
-# @section description_strategy Description
+# @section description_analysis Description
 # This part of the programme corresponds to the analysis of the results obtained in the previous section.
 # Here, visualisation tools are used to graphically display the results obtained in order to facilitate their
 # analysis. The values obtained for the return and volatility of the different portfolios (investment strategies)
 # are analysed using different graphs.
 #
-# @section libraries_main Libraries/Modules
+# @section libraries_analysis Libraries/Modules
 # - pandas library (https://pypi.org/project/pandas/)
 #   - Access to Dataframes, Series, etc.
 # - matplotlib library (https://pypi.org/project/matplotlib/)
@@ -22,7 +22,7 @@
 # - seaborn library (https://pypi.org/project/seaborn/)
 #   - Access to ploting functionalities (friendly with pandas)
 #
-# @section author_strategy Author(s)
+# @section author_analysis Author(s)
 # - Created by group number 5 on March of 2022.
 #
 

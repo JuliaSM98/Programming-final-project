@@ -63,6 +63,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">webscraping Namespace Reference</div></div>
 </div><!--header-->
@@ -72,185 +73,284 @@ $(function() {
  This module performs the web scraping of the historical data that will be used.  
 <a href="namespacewebscraping.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a46cf0054d3305b865ecfc8b7cd214eba"><td class="memItemLeft" align="right" valign="top">webdriver.ChromeOptions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#a46cf0054d3305b865ecfc8b7cd214eba">init</a> ()</td></tr>
+<tr class="memdesc:a46cf0054d3305b865ecfc8b7cd214eba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the program.  <a href="namespacewebscraping.html#a46cf0054d3305b865ecfc8b7cd214eba">More...</a><br /></td></tr>
+<tr class="separator:a46cf0054d3305b865ecfc8b7cd214eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f5e7e47a74b2447904bcc34ee2714ec"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#a9f5e7e47a74b2447904bcc34ee2714ec">main</a> ()</td></tr>
+<tr class="memdesc:a9f5e7e47a74b2447904bcc34ee2714ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main program entry.  <a href="namespacewebscraping.html#a9f5e7e47a74b2447904bcc34ee2714ec">More...</a><br /></td></tr>
+<tr class="separator:a9f5e7e47a74b2447904bcc34ee2714ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaf92b8a8aca0f16916c46be01500574"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#abaf92b8a8aca0f16916c46be01500574">processAssets</a> (webdriver.ChromeOptions options)</td></tr>
+<tr class="memdesc:abaf92b8a8aca0f16916c46be01500574"><td class="mdescLeft">&#160;</td><td class="mdescRight">It processes all the assets of interest, all of which have been detailed in the project statement.  <a href="namespacewebscraping.html#abaf92b8a8aca0f16916c46be01500574">More...</a><br /></td></tr>
+<tr class="separator:abaf92b8a8aca0f16916c46be01500574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ca307b2184e729c1edecc85a085459e"><td class="memItemLeft" align="right" valign="top">pd.DataFrame&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#a0ca307b2184e729c1edecc85a085459e">scrapDataFromUrlToDf</a> (str url, webdriver.ChromeOptions options)</td></tr>
+<tr class="memdesc:a0ca307b2184e729c1edecc85a085459e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using the driver, open the URL corresponding to the asset.  <a href="namespacewebscraping.html#a0ca307b2184e729c1edecc85a085459e">More...</a><br /></td></tr>
+<tr class="separator:a0ca307b2184e729c1edecc85a085459e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ab73a1162c9ff2c874aa7dfbeacda6acc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#ab73a1162c9ff2c874aa7dfbeacda6acc">apply_button</a></td></tr>
-<tr class="separator:ab73a1162c9ff2c874aa7dfbeacda6acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad82fe073dc954a6dcda1a90827362dbb"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#ad82fe073dc954a6dcda1a90827362dbb">assets</a></td></tr>
-<tr class="separator:ad82fe073dc954a6dcda1a90827362dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3282a3277ad6d1c30e453fe03ca725b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#a3282a3277ad6d1c30e453fe03ca725b8">chrome_options</a> = webdriver.ChromeOptions()</td></tr>
-<tr class="separator:a3282a3277ad6d1c30e453fe03ca725b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48ee5cfd684b893354130eb809591daf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#a48ee5cfd684b893354130eb809591daf">dataframes</a> = pd.read_html(driver.page_source)</td></tr>
-<tr class="separator:a48ee5cfd684b893354130eb809591daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab52c96bea30646abf8170f333bbd42b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#ab52c96bea30646abf8170f333bbd42b9">df</a> = <a class="el" href="namespacewebscraping.html#a48ee5cfd684b893354130eb809591daf">dataframes</a>[0]</td></tr>
-<tr class="separator:ab52c96bea30646abf8170f333bbd42b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5752b9eb2786389fa4eea908e15c39c5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#a5752b9eb2786389fa4eea908e15c39c5">driver</a></td></tr>
-<tr class="separator:a5752b9eb2786389fa4eea908e15c39c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cfa56d457d1669d5ea10eba29642c97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#a2cfa56d457d1669d5ea10eba29642c97">end_bar</a></td></tr>
-<tr class="separator:a2cfa56d457d1669d5ea10eba29642c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6784e1c334dfceb8f017667c0b0f6a3e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#a6784e1c334dfceb8f017667c0b0f6a3e">index</a></td></tr>
-<tr class="separator:a6784e1c334dfceb8f017667c0b0f6a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab862eac0a8a129775da0d7f41edb6b1d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#ab862eac0a8a129775da0d7f41edb6b1d">my_url</a> = 'https://investing.com/'+asset+'-historical-data'</td></tr>
-<tr class="separator:ab862eac0a8a129775da0d7f41edb6b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70cb9532f1a16d9eed9d29233a5d22fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#a70cb9532f1a16d9eed9d29233a5d22fc">start_bar</a></td></tr>
-<tr class="separator:a70cb9532f1a16d9eed9d29233a5d22fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a340252103a39d55af298b64e727cd21e"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#a340252103a39d55af298b64e727cd21e">ASSETS</a> = ['funds/amundi-msci-wrld-ae-c', 'etfs/ishares-global-corporate-bond-$', 'etfs/db-x-trackers-ii-global-sovereign-5', 'etfs/spdr-gold-trust', 'indices/usdollar']</td></tr>
+<tr class="memdesc:a340252103a39d55af298b64e727cd21e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The asset list to be used.  <a href="namespacewebscraping.html#a340252103a39d55af298b64e727cd21e">More...</a><br /></td></tr>
+<tr class="separator:a340252103a39d55af298b64e727cd21e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae28dec142153ced297cef6732cf3338f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#ae28dec142153ced297cef6732cf3338f">BASEURL</a> = &quot;&quot;&quot;https://investing.com/{0}-historical-data&quot;&quot;&quot;</td></tr>
+<tr class="memdesc:ae28dec142153ced297cef6732cf3338f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The base URL from which retrieve the data.  <a href="namespacewebscraping.html#ae28dec142153ced297cef6732cf3338f">More...</a><br /></td></tr>
+<tr class="separator:ae28dec142153ced297cef6732cf3338f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a195cfbb443ae0bb4a561921b9bed43"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#a1a195cfbb443ae0bb4a561921b9bed43">DRIVERPATH</a> = &quot;\driver\chromedriver.exe&quot;</td></tr>
+<tr class="memdesc:a1a195cfbb443ae0bb4a561921b9bed43"><td class="mdescLeft">&#160;</td><td class="mdescRight">The path where the web browser driver is located.  <a href="namespacewebscraping.html#a1a195cfbb443ae0bb4a561921b9bed43">More...</a><br /></td></tr>
+<tr class="separator:a1a195cfbb443ae0bb4a561921b9bed43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23afe3491faf1a32ece09a251d110524"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#a23afe3491faf1a32ece09a251d110524">END_DATE</a> = &quot;12-31-2020&quot;</td></tr>
+<tr class="memdesc:a23afe3491faf1a32ece09a251d110524"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ending date of the analysis.  <a href="namespacewebscraping.html#a23afe3491faf1a32ece09a251d110524">More...</a><br /></td></tr>
+<tr class="separator:a23afe3491faf1a32ece09a251d110524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36adc43620f050b786c81503690150e6"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#a36adc43620f050b786c81503690150e6">FILENAMES</a> = [&quot;amundi-msci-wrld-ae-c.csv&quot;, &quot;ishares-global-corporate-bond-$.csv&quot;, &quot;db-x-trackers-ii-global-sovereign-5.csv&quot;, &quot;spdr-gold-trust.csv&quot;, &quot;usdollar.csv&quot;]</td></tr>
+<tr class="memdesc:a36adc43620f050b786c81503690150e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The names of CSV files (same order as assets list).  <a href="namespacewebscraping.html#a36adc43620f050b786c81503690150e6">More...</a><br /></td></tr>
+<tr class="separator:a36adc43620f050b786c81503690150e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab50584457166dd5ef2e6ed70fd79b519"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#ab50584457166dd5ef2e6ed70fd79b519">MAXATTEMPT</a> = 5</td></tr>
+<tr class="memdesc:ab50584457166dd5ef2e6ed70fd79b519"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum number of attempts to obtain the data from the website.  <a href="namespacewebscraping.html#ab50584457166dd5ef2e6ed70fd79b519">More...</a><br /></td></tr>
+<tr class="separator:ab50584457166dd5ef2e6ed70fd79b519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11111a13ccc66b1bd1c8c5c37809cb3e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#a11111a13ccc66b1bd1c8c5c37809cb3e">RETRYTIME</a> = 30</td></tr>
+<tr class="memdesc:a11111a13ccc66b1bd1c8c5c37809cb3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of seconds to wait before retrying scraping.  <a href="namespacewebscraping.html#a11111a13ccc66b1bd1c8c5c37809cb3e">More...</a><br /></td></tr>
+<tr class="separator:a11111a13ccc66b1bd1c8c5c37809cb3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a963d7a60fefcf7588eba4244c909e112"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewebscraping.html#a963d7a60fefcf7588eba4244c909e112">START_DATE</a> = &quot;01-01-2020&quot;</td></tr>
+<tr class="memdesc:a963d7a60fefcf7588eba4244c909e112"><td class="mdescLeft">&#160;</td><td class="mdescRight">The starting date of the analysis.  <a href="namespacewebscraping.html#a963d7a60fefcf7588eba4244c909e112">More...</a><br /></td></tr>
+<tr class="separator:a963d7a60fefcf7588eba4244c909e112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Data Harvesting (Part I) <br  />
  This module performs the web scraping of the historical data that will be used. </p>
-</div><h2 class="groupheader">Variable Documentation</h2>
-<a id="ab73a1162c9ff2c874aa7dfbeacda6acc" name="ab73a1162c9ff2c874aa7dfbeacda6acc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab73a1162c9ff2c874aa7dfbeacda6acc">&#9670;&nbsp;</a></span>apply_button</h2>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a46cf0054d3305b865ecfc8b7cd214eba" name="a46cf0054d3305b865ecfc8b7cd214eba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46cf0054d3305b865ecfc8b7cd214eba">&#9670;&nbsp;</a></span>init()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">apply_button</td>
+          <td class="memname"> webdriver.ChromeOptions webscraping.init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"><span class="lineno">    1</span>=  WebDriverWait(driver, 20).until(</div>
-<div class="line"><span class="lineno">    2</span>        EC.element_to_be_clickable((By.XPATH,</div>
-<div class="line"><span class="lineno">    3</span>                                    <span class="stringliteral">&quot;/html/body/div[7]/div[5]/a&quot;</span>)))</div>
-</div><!-- fragment -->
+
+<p>Initializes the program. </p>
+<p >Set chrome driver options. </p><dl class="section return"><dt>Returns</dt><dd>Webdriver object of type ChromeOptions </dd></dl>
+
 </div>
 </div>
-<a id="ad82fe073dc954a6dcda1a90827362dbb" name="ad82fe073dc954a6dcda1a90827362dbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad82fe073dc954a6dcda1a90827362dbb">&#9670;&nbsp;</a></span>assets</h2>
+<a id="a9f5e7e47a74b2447904bcc34ee2714ec" name="a9f5e7e47a74b2447904bcc34ee2714ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f5e7e47a74b2447904bcc34ee2714ec">&#9670;&nbsp;</a></span>main()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">list assets</td>
+          <td class="memname"> None webscraping.main </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"><span class="lineno">    1</span>=  [<span class="stringliteral">&#39;funds/amundi-msci-wrld-ae-c&#39;</span>, <span class="stringliteral">&#39;etfs/ishares-global-corporate-bond-$&#39;</span>,</div>
-<div class="line"><span class="lineno">    2</span>          <span class="stringliteral">&#39;etfs/db-x-trackers-ii-global-sovereign-5&#39;</span>, <span class="stringliteral">&#39;etfs/spdr-gold-trust&#39;</span>,</div>
-<div class="line"><span class="lineno">    3</span>          <span class="stringliteral">&#39;indices/usdollar&#39;</span>]</div>
-</div><!-- fragment -->
+
+<p>Main program entry. </p>
+
 </div>
 </div>
-<a id="a3282a3277ad6d1c30e453fe03ca725b8" name="a3282a3277ad6d1c30e453fe03ca725b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3282a3277ad6d1c30e453fe03ca725b8">&#9670;&nbsp;</a></span>chrome_options</h2>
+<a id="abaf92b8a8aca0f16916c46be01500574" name="abaf92b8a8aca0f16916c46be01500574"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaf92b8a8aca0f16916c46be01500574">&#9670;&nbsp;</a></span>processAssets()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">chrome_options = webdriver.ChromeOptions()</td>
+          <td class="memname"> None webscraping.processAssets </td>
+          <td>(</td>
+          <td class="paramtype">webdriver.ChromeOptions&#160;</td>
+          <td class="paramname"><em>options</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>It processes all the assets of interest, all of which have been detailed in the project statement. </p>
+<p >The datasets are processed one at a time using the 'scrapDataFromUrlToDf' function. The DataFrames are then stored in CSV files.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">options</td><td>The options for the driver to be used to manage scraping tasks (browsing, fetching data). </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a id="a48ee5cfd684b893354130eb809591daf" name="a48ee5cfd684b893354130eb809591daf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48ee5cfd684b893354130eb809591daf">&#9670;&nbsp;</a></span>dataframes</h2>
+<a id="a0ca307b2184e729c1edecc85a085459e" name="a0ca307b2184e729c1edecc85a085459e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ca307b2184e729c1edecc85a085459e">&#9670;&nbsp;</a></span>scrapDataFromUrlToDf()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">dataframes = pd.read_html(driver.page_source)</td>
+          <td class="memname"> pd.DataFrame webscraping.scrapDataFromUrlToDf </td>
+          <td>(</td>
+          <td class="paramtype">str&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">webdriver.ChromeOptions&#160;</td>
+          <td class="paramname"><em>options</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Using the driver, open the URL corresponding to the asset. </p>
+<p >The reference dates are inserted into the web inputs and the data is downloaded. The data is returned in a DataFrame.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>The URL from where to download the data. </td></tr>
+    <tr><td class="paramname">options</td><td>The options for the driver to be used to manage scraping tasks (browsing, fetching data). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Data retrieved from the web, stored in a DataFrame. </dd></dl>
+
 </div>
 </div>
-<a id="ab52c96bea30646abf8170f333bbd42b9" name="ab52c96bea30646abf8170f333bbd42b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab52c96bea30646abf8170f333bbd42b9">&#9670;&nbsp;</a></span>df</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a340252103a39d55af298b64e727cd21e" name="a340252103a39d55af298b64e727cd21e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a340252103a39d55af298b64e727cd21e">&#9670;&nbsp;</a></span>ASSETS</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">df = <a class="el" href="namespacewebscraping.html#a48ee5cfd684b893354130eb809591daf">dataframes</a>[0]</td>
+          <td class="memname">list ASSETS = ['funds/amundi-msci-wrld-ae-c', 'etfs/ishares-global-corporate-bond-$', 'etfs/db-x-trackers-ii-global-sovereign-5', 'etfs/spdr-gold-trust', 'indices/usdollar']</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>The asset list to be used. </p>
+
 </div>
 </div>
-<a id="a5752b9eb2786389fa4eea908e15c39c5" name="a5752b9eb2786389fa4eea908e15c39c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5752b9eb2786389fa4eea908e15c39c5">&#9670;&nbsp;</a></span>driver</h2>
+<a id="ae28dec142153ced297cef6732cf3338f" name="ae28dec142153ced297cef6732cf3338f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae28dec142153ced297cef6732cf3338f">&#9670;&nbsp;</a></span>BASEURL</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">driver</td>
+          <td class="memname">string BASEURL = &quot;&quot;&quot;https://investing.com/{0}-historical-data&quot;&quot;&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"><span class="lineno">    1</span>=  webdriver.Chrome(executable_path=<span class="stringliteral">&quot;C:\webdrivers\chromedriver.exe&quot;</span>,</div>
-<div class="line"><span class="lineno">    2</span>                                options=chrome_options)</div>
-</div><!-- fragment -->
+
+<p>The base URL from which retrieve the data. </p>
+
 </div>
 </div>
-<a id="a2cfa56d457d1669d5ea10eba29642c97" name="a2cfa56d457d1669d5ea10eba29642c97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2cfa56d457d1669d5ea10eba29642c97">&#9670;&nbsp;</a></span>end_bar</h2>
+<a id="a1a195cfbb443ae0bb4a561921b9bed43" name="a1a195cfbb443ae0bb4a561921b9bed43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a195cfbb443ae0bb4a561921b9bed43">&#9670;&nbsp;</a></span>DRIVERPATH</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">end_bar</td>
+          <td class="memname">string DRIVERPATH = &quot;\driver\chromedriver.exe&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"><span class="lineno">    1</span>=  WebDriverWait(driver, 20).until(</div>
-<div class="line"><span class="lineno">    2</span>        EC.element_to_be_clickable((By.XPATH,</div>
-<div class="line"><span class="lineno">    3</span>                                    <span class="stringliteral">&quot;/html/body/div[7]/div[1]/input[2]&quot;</span>)))</div>
-</div><!-- fragment -->
+
+<p>The path where the web browser driver is located. </p>
+
 </div>
 </div>
-<a id="a6784e1c334dfceb8f017667c0b0f6a3e" name="a6784e1c334dfceb8f017667c0b0f6a3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6784e1c334dfceb8f017667c0b0f6a3e">&#9670;&nbsp;</a></span>index</h2>
+<a id="a23afe3491faf1a32ece09a251d110524" name="a23afe3491faf1a32ece09a251d110524"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23afe3491faf1a32ece09a251d110524">&#9670;&nbsp;</a></span>END_DATE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">index</td>
+          <td class="memname">string END_DATE = &quot;12-31-2020&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>The ending date of the analysis. </p>
+
 </div>
 </div>
-<a id="ab862eac0a8a129775da0d7f41edb6b1d" name="ab862eac0a8a129775da0d7f41edb6b1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab862eac0a8a129775da0d7f41edb6b1d">&#9670;&nbsp;</a></span>my_url</h2>
+<a id="a36adc43620f050b786c81503690150e6" name="a36adc43620f050b786c81503690150e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36adc43620f050b786c81503690150e6">&#9670;&nbsp;</a></span>FILENAMES</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string my_url = 'https://investing.com/'+asset+'-historical-data'</td>
+          <td class="memname">list FILENAMES = [&quot;amundi-msci-wrld-ae-c.csv&quot;, &quot;ishares-global-corporate-bond-$.csv&quot;, &quot;db-x-trackers-ii-global-sovereign-5.csv&quot;, &quot;spdr-gold-trust.csv&quot;, &quot;usdollar.csv&quot;]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>The names of CSV files (same order as assets list). </p>
+
 </div>
 </div>
-<a id="a70cb9532f1a16d9eed9d29233a5d22fc" name="a70cb9532f1a16d9eed9d29233a5d22fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70cb9532f1a16d9eed9d29233a5d22fc">&#9670;&nbsp;</a></span>start_bar</h2>
+<a id="ab50584457166dd5ef2e6ed70fd79b519" name="ab50584457166dd5ef2e6ed70fd79b519"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab50584457166dd5ef2e6ed70fd79b519">&#9670;&nbsp;</a></span>MAXATTEMPT</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">start_bar</td>
+          <td class="memname">int MAXATTEMPT = 5</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"><span class="lineno">    1</span>=  WebDriverWait(driver, 20).until(</div>
-<div class="line"><span class="lineno">    2</span>        EC.element_to_be_clickable((By.XPATH,</div>
-<div class="line"><span class="lineno">    3</span>                                    <span class="stringliteral">&quot;/html/body/div[7]/div[1]/input[1]&quot;</span>)))</div>
-</div><!-- fragment -->
+
+<p>The maximum number of attempts to obtain the data from the website. </p>
+
+</div>
+</div>
+<a id="a11111a13ccc66b1bd1c8c5c37809cb3e" name="a11111a13ccc66b1bd1c8c5c37809cb3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11111a13ccc66b1bd1c8c5c37809cb3e">&#9670;&nbsp;</a></span>RETRYTIME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RETRYTIME = 30</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The number of seconds to wait before retrying scraping. </p>
+
+</div>
+</div>
+<a id="a963d7a60fefcf7588eba4244c909e112" name="a963d7a60fefcf7588eba4244c909e112"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a963d7a60fefcf7588eba4244c909e112">&#9670;&nbsp;</a></span>START_DATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string START_DATE = &quot;01-01-2020&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The starting date of the analysis. </p>
+
 </div>
 </div>
 </div><!-- contents -->

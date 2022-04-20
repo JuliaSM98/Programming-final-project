@@ -27,7 +27,7 @@
 # of all, the process of generating strategies with their corresponding indicators (return, volatility)
 # is carried out, and then the results are analysed by means of visualisation methods and the like.
 #
-# @section libraries_main Libraries/Modules
+# @section libraries_strategy Libraries/Modules
 # - pandas library (https://pypi.org/project/pandas/)
 #   - Access to Dataframes, Series, etc.
 # - itertools library (built-in package)
@@ -51,15 +51,15 @@ import numpy as np
 
 # Global Constants
 ## Path to global stock data source.
-ORG_GLOBAL_STOCK = "https://raw.githubusercontent.com/Julia-upc/Programming-final-project/main/data/0P00012PP6%20Historical%20Data.csv"
+ORG_GLOBAL_STOCK = "../data/amundi-msci-wrld-ae-c.csv"
 ## Path to corporate bonds data source.
-ORG_CORP_BONDS = "https://raw.githubusercontent.com/Julia-upc/Programming-final-project/main/data/CRPS%20Historical%20Data.csv"
+ORG_CORP_BONDS = "../data/ishares-global-corporate-bond-$.csv"
 ## Path to gold data source.
-ORG_GOLD = "https://raw.githubusercontent.com/Julia-upc/Programming-final-project/main/data/GLD%20Historical%20Data.csv"
+ORG_GOLD = "../data/spdr-gold-trust.csv"
 ## Path to cash data source.
-ORG_CASH = "https://raw.githubusercontent.com/Julia-upc/Programming-final-project/main/data/US%20Dollar%20Index%20Historical%20Data.csv"
+ORG_CASH = "../data/usdollar.csv"
 ## Path to government bonds data source.
-ORG_GOVERN_BONDS = "https://raw.githubusercontent.com/Julia-upc/Programming-final-project/main/data/XG7S%20Historical%20Data.csv"
+ORG_GOVERN_BONDS = "../data/db-x-trackers-ii-global-sovereign-5.csv"
 ## Non-useful columns from data sources.
 NON_USE_COLS_DS = ['Open','High','Low']
 ## The asset list to be used.
