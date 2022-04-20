@@ -19,10 +19,11 @@ In order to execute the code related to this section, it is necesary to have dow
  
 Finally, the *Python* libraries needed are: 
 
-- selenium
-- time
-- pandas
-- lxml
+- selenium - version: 4.1.3
+- pandas - version: 1.4.2
+- lxml - version: 4.2.6
+
+Once the above requirements are fulfilled, to carry out the data generation, just execute the following command from the **src** directory: *python webscraping.py*.
 
 ### Data generation
 This part generates the files corresponding to the allocation of the different portfolios and the generation of different indices (return & volatility) for each one of them. 
