@@ -1,5 +1,5 @@
 # Programming-final-project
-This repository stores the code corresponding to the final project corresponding to the subject *Programming for Data Science*. Likewise, the project has been developed by group number 5, whose members are detailed below. The repository is made up of several directories, the contents of each of which are described in the following table.
+This repository stores the code corresponding to the final project corresponding to the subject *Programming for Data Science*. Likewise, the project has been developed by group number 5, whose members are detailed below. The repository is made up of several directories, the contents of each of which are described in the following table. 
 
 | Directorio | Descripción |
 | ---------- | ----------- |
